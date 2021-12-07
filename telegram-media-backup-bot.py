@@ -19,7 +19,6 @@ def has(dictionary,string):
         return False
 
 def load_token():    
-    #nicola 
     token = ''
     try:
         with open('telegram-media-backup-bot.token','r') as tokenfile:
